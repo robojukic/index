@@ -1,0 +1,106 @@
+body{
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+h1{
+}
+
+/* Nav Bar */
+
+.navbar{
+  padding: 0 8% 1.5rem;
+  margin: 1rem 0 0 ;
+}
+
+.navbar-brand{
+  padding: 1rem 0;
+}
+
+.nav-item{
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+/* Line Under Nav Link and Color*/
+.navbar-light .navbar-nav .nav-link {
+  color: #2b2024;
+  border-bottom: 4px solid white;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+  color: #830029;
+  border-bottom: 4px solid #830029;
+}
+.navbar-nav .show>.nav-link {
+    color: #830029;
+    border-bottom: 4px solid #830029;
+}
+/* Dropdown Menu Settings */
+.dropdown-menu{
+  background-color:#f6f6f6;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+ }
+
+.dropdown-item{
+  padding: 0.75rem 1.5rem;
+}
+
+.dropdown-item:hover{
+  background-color: #830029;
+  color: white;
+}
+
+/* Main Page Slider */
+.slider-and-text{
+  margin:0 9%;
+}
+
+.slider-main-page{
+  border-top: 8px solid #830029;
+  border-bottom: 8px solid #830029;
+  padding: 0;
+}
+.loyalty-card{
+  background-color: #830029;
+}
+
+/* Features */
+
+
+
+/* Footer *//*
+@media (max-width: 991px) {
+  #footer{
+     text-align: center;
+   }
+   .telephone-img{
+     position:absolute;
+     right:16px;
+   }
+}*/
+.footer-row{
+  margin: 0 9%;
+}
+#footer{
+  padding: 3% 0%;
+  background-color: #343434;
+  color: white;
+}
+
+.social-media-link{
+  padding-right: 5%;
+}
+
+.footer-text{
+  color:#b7b7b7;
+  margin: 0;
+}
+.footer-column{
+  padding: 4% 0 ;
+}
+.footer-title{
+  padding-bottom: 3%;
+}
