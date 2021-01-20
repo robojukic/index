@@ -1,10 +1,19 @@
 body{
   font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 1.3rem;
 }
 
 h1{
 }
 
+@media (max-width: 991px) {
+  .nav-item{
+    font-size: 1.5rem;
+  }
+  .dropdown-item{
+    font-size: 1.2rem;
+  }
+}
 /* Nav Bar */
 
 .navbar{
@@ -17,7 +26,6 @@ h1{
 }
 
 .nav-item{
-  font-size: 1rem;
   padding: 0.5rem 1rem;
 }
 
