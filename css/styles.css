@@ -1,6 +1,6 @@
 body{
   font-family: 'Fira Sans Condensed', sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 
 h1{
@@ -8,10 +8,10 @@ h1{
 
 @media (max-width: 991px) {
   .nav-item{
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .dropdown-item{
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     text-align: center;
   }
   body{
@@ -31,6 +31,16 @@ h1{
 
 .nav-item{
   padding: 0.5rem 1rem;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: #404040;
+    border: 2px solid ;
+    border-radius: .45rem;
+}
+.navbar-toggler-icon {
+    width: 3em;
+    height: 3em;
 }
 
 /* Line Under Nav Link and Color*/
