@@ -11,14 +11,34 @@
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .4) !important;
 }
 
-.image-akcija {
-  width: 100%;
-  border-radius: 5%;
+.detail-search-header{
+  font-weight: 300;
+  font-size: 2rem;
+  margin: 3% 9% 1%;
+  text-align: center;
 }
 
-.main-image-akcija {
+@media (max-width: 991px){
+  .detail-search-header{
+    font-size: 3rem;
+  }
+}
+
+
+/* KATALOG */
+
+.main-katalog-akcija {
   padding: 3% 9%;
 }
+
+.carousel-control-prev-icon{
+  transform: scale(4);
+}
+.carousel-control-next-icon{
+  transform: scale(4);
+}
+
+/* ARTIKLI */
 
 .card-price{
   padding:2%;
@@ -27,6 +47,11 @@
   width:120px;
   border-radius: 10%;
   font-size: 1.8rem;
+}
+
+.card:hover{
+  transition: 0.5s;
+  transform:scale(1.1);
 }
 
 @media (max-width: 991px) {
