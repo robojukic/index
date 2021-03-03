@@ -14,6 +14,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css\styles.css">
+  <link rel="stylesheet" href="css\loyalty-card.css">
 </head>
 
 
@@ -87,10 +88,10 @@
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <a class="dropdown-item" href="usluge.html">Narudžba kolača</a>
-                <a class="dropdown-item" href="usluge.html">Narudžba plata</a>
-                <a class="dropdown-item" href="usluge.html">Izrada aranžmana</a>
-                <a class="dropdown-item" href="usluge.html">Plaćanje na rate</a>
-                <a class="dropdown-item" href="usluge.html">Povrat PDV-a</a>
+                <a class="dropdown-item" href="usluge.html#kolači">Narudžba plata</a>
+                <a class="dropdown-item" href="usluge.html#aranžman">Izrada aranžmana</a>
+                <a class="dropdown-item" href="usluge.html#plaćanje">Plaćanje na rate</a>
+                <a class="dropdown-item" href="usluge.html#pdv">Povrat PDV-a</a>
               </div>
             </li>
 
@@ -141,18 +142,35 @@
     </div>
   </section>
 
+  <!-- Loyalty Card -->
+
+  <section id="loyalty-card-main">
+    <div class="row loyalty-card-main">
+      <div class="col-4 loyalty-image-main-col">
+        <a href="loyalty-card.html"><img class="loyalty-image-main-page" src="images/Main Page/olicard.png" alt=""></a>
+      </div>
+      <div class="col-8 loyalty-text-main">
+        <a href="loyalty-card.html"><h1 class="oli-text-card">OLI Loyalty Card</h1></a>
+        <a href="loyalty-card.html"><button type="button" class="btn btn-primary shadow loyalty-main-button">Pogledajte više →</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Katalog Artikli -->
+
+
   <!-- Usluge -->
 
   <section id="usluge">
     <div class="row usluge">
       <div class="col-lg-4 usluga-card shadow">
-        <a href="usluge.html"><img src="images/Main Page/usluge-aranzman.jpg" class="usluge-image-main-page " alt="cvijeće"></a>
+        <a href="aranzman.html"><img src="images/Main Page/usluge-aranzman.jpg" class="usluge-image-main-page " alt="cvijeće"></a>
         <h3 class="usluga-text-main-page">Izrada aranžmana<br>
           <a href="usluge.html"><button type="button" class="btn btn-primary usluge-button-main-page shadow">Više →</button></a>
         </h3>
       </div>
       <div class="col-lg-4 usluga-card shadow">
-        <a href="usluge.html"><img src="images/Main Page/usluge-kolači.jpg" class="usluge-image-main-page " alt="cvijeće"></a>
+        <a href="kolaci.html"><img src="images/Main Page/usluge-kolači.jpg" class="usluge-image-main-page " alt="cvijeće"></a>
         <h3 class="usluga-text-main-page">Narudžba kolača</a><br>
           <a href="usluge.html"><button type="button" class="btn btn-primary usluge-button-main-page shadow">Više →</button></a>
       </div>
