@@ -18,6 +18,24 @@
   text-align: center;
 }
 
+.under-header-text{
+  margin: 0 9% 0 8%;
+}
+
+.nazad-text{
+  float: left;
+  width:20%;
+  text-align: center;
+  padding: 2% 3%;
+}
+
+.naprijed-text{
+  width: 20%;
+  float:right;
+  text-align: center;
+  padding: 2% 3%;
+}
+
 @media (max-width: 991px){
   .detail-search-header{
     font-size: 3rem;
@@ -28,7 +46,7 @@
 /* KATALOG */
 
 .main-katalog-akcija {
-  padding: 3% 9%;
+  margin: 0 9% 3%;
 }
 
 .carousel-control-prev-icon{

@@ -1,0 +1,122 @@
+.loyalty-card-main{
+  background-color: #343434;
+  margin:0 9%;
+}
+
+.loyalty-image-main-col{
+  text-align: center;
+}
+
+.loyalty-image-main-page{
+  width:70%;
+}
+
+.loyalty-image-main-page:hover{
+  transform: scaleX(1.1);
+}
+
+.oli-text-card{
+  color: #abaaab;
+  position: absolute;
+  top:30%;
+  left: 5%;
+  font-family: 'PT Serif', serif;
+  font-weight: 500;
+  font-size: 3rem;
+}
+.oli-text-card:hover{
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+
+.loyalty-main-button{
+  position: absolute;
+  top:35%;
+  right:7%;
+  background-color: #343434;
+  font-size: 1.2rem;
+  padding:10px 25px;
+  color: #abaaab;
+  border: 4px solid #abaaab;
+  border-radius: 15px;
+}
+
+.loyalty-main-button:hover{
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+
+@media (max-width: 991px){
+  .loyalty-card-main{
+    margin:0;
+  }
+
+  .loyalty-image-main-page{
+    width:80%;
+  }
+
+  .oli-text-card{
+    left:0;
+    font-size: 2.7rem;
+  }
+  .loyalty-main-button{
+    font-size: 1.5rem;
+  }
+}
+
+/* Loyalty Card HTML */
+
+.loyalty-card{
+  margin:4% 9% 8%;
+}
+
+.loyalty-image{
+  width:100%;
+}
+
+.loyalty-table{
+  width:85%;
+  text-align:center;
+  margin:20px 0;
+}
+
+.main-header-loyalty{
+  margin: 0 0 5%;
+  width:100%;
+  text-align: center;
+  background-color:#343434;
+  color:white;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+table, th, td {
+border: 2px solid #212529;
+}
+
+@media (max-width: 991px){
+  .loyalty-image{
+    width:80%;
+    margin: 30px auto 60px;
+  }
+
+  .main-header-loyalty{
+    font-size: 3.2rem;
+  }
+
+  .loyalty-text-column{
+    font-size: 2rem;
+    text-align: left;
+  }
+
+  .pravilnik-header{
+    font-size: 3rem;
+    margin: 60px 0;
+  }
+
+  .loyalty-table{
+    width:100%;
+    text-align:center;
+    margin:20px 0;
+  }
+}

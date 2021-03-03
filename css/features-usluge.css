@@ -1,0 +1,43 @@
+.features-usluge{
+  margin:5% 9% 9%;
+}
+
+.usluga-image-big{
+  width: 100%;
+  border-radius: 20px;
+}
+
+.usluga-text-big{
+  padding: 3% 6%;
+}
+
+.usluga-heading-big{
+  margin-bottom: 5%;
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+.usluga-paragraph-big{
+  font-size: 1.2rem;
+}
+a:hover{
+  text-decoration: none;
+  color:#830029;
+}
+
+@media (max-width: 991px){
+  .usluga-image-big{
+    width:80%
+  }
+
+  .usluga-heading-big{
+    font-size: 4rem;
+    margin-top: 5%;
+  }
+
+  .usluga-paragraph-big{
+    font-size: 2.2rem;
+    padding: 2% 3%;
+  }
+
+}

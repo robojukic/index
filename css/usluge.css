@@ -15,6 +15,11 @@
   padding: 0 30px 30px;
 }
 
+.usluga-padding:hover{
+  transition: 0.3s;
+  transform:scale(1.1);
+}
+
 .usluga-image{
   width:100%;
   margin: 6% 0 0;
@@ -32,7 +37,8 @@
 .usluga-text{
   background-color: #dadada61;
   border-bottom-left-radius: 7%;
-  border-bottom-right-radius: 7%
+  border-bottom-right-radius: 7%;
+  padding-bottom: 3%;
 }
 
 .usluga-paragraph{
@@ -40,13 +46,42 @@
   font-size: 1rem;
 }
 
+.button-usluge{
+  padding: 10px 10px;
+  margin: 5px auto;
+  background-color: #830029;
+  width:50%;
+  color: white;
+  border-radius: 20px;
+}
+
+.button-usluge:hover{
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+
 @media (max-width: 991px){
   .usluga-header{
-    font-size: 2.3rem;
+    font-size: 3rem;
     padding-top: 12%;
   }
 
-  .usluga-paragraph{
-    font-size: 1.3rem;
+  .usluga-text{
+    padding-bottom: 5%;
   }
+
+  .usluga-paragraph{
+    font-size: 2rem;
+  }
+  .button-usluge{
+    font-size: 2rem;
+    width:50%;
+    padding:15px 10px;
+  }
+
 }

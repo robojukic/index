@@ -19,7 +19,7 @@ input[type="text"]:focus, input[type="email"]:focus, textarea:focus{
 }
 
 .margin-column{
-  margin:10px auto;
+  margin:20px auto;
 }
 .border-column-text{
   border-radius: 15px;
@@ -27,6 +27,10 @@ input[type="text"]:focus, input[type="email"]:focus, textarea:focus{
   padding: 15px;
   width: 100%;
   border: none;
+}
+.border-column-text:hover{
+  transition: 0.3s;
+  transform:scale(1.1);
 }
 
 .shadow:active {
@@ -40,6 +44,10 @@ input[type="text"]:focus, input[type="email"]:focus, textarea:focus{
   border-radius: 15px;
   border:none;
   float:right;
+}
+.button-submit:hover{
+  transition: 0.3s;
+  transform: scale(1.1);
 }
 
 @media (max-width: 991px){
