@@ -149,10 +149,67 @@ body{
     font-size: 1.8rem;
   }
 }
+
+/* Katalog Artikli */
+
+.izdvojeno-katalog-text{
+  font-weight: 300;
+  font-size: 3rem;
+  text-align: left;
+  margin: 3% 0;
+}
+
+#katalog-artikli{
+  margin: 3% 9%;
+  text-align: center;
+}
+
+.card-price{
+  padding:2%;
+  color: #bb0718;
+  margin:auto;
+  width:120px;
+  border-radius: 10%;
+  font-size: 1.8rem;
+}
+
+.card:hover{
+  transition: 0.5s;
+  transform:scale(1.1);
+}
+
+@media (max-width: 991px) {
+  .akcije-red {
+    margin: 0;
+  }
+
+  #katalog-artikli{
+    margin: 5% 15%;
+  }
+
+  .akcija {
+    margin: 3% 0;
+  }
+
+  .card-title {
+    font-size: 2rem;
+  }
+
+  .card-text {
+    font-size: 1.4rem;
+  }
+
+  .card-price{
+    font-size: 1.8rem;
+  }
+}
+
 /* Usluge Main Page */
 
 #usluge{
-  margin:3% 9%;
+  padding:0 9%;
+  background-color: #830029;
+  color: white;
 }
 
 .usluga-card{
@@ -178,9 +235,9 @@ body{
 }
 
 .usluge-button-main-page{
-  background-color:white;
-  border-color: #830029;
-  color:#830029;
+  background-color:#830029;
+  border:2px solid white;
+  color:white;
   margin-top: 1rem;
 }
 
